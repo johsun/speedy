@@ -1,0 +1,84 @@
+/** --------------------------------------------------------------
+ * Navbar: Plain style, nothing special
+ *
+ */
+ul.nb-plain {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.nb-plain li {
+  padding: 0 0 0 1em;
+  margin: 0;
+  display: inline;
+}
+
+ul.nb-plain li:first-child {
+  padding-left: 0;
+}
+
+ul.nb-plain li.selected a {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}    
+
+ul.nb-plain a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}  
+
+ul.nb-plain a:hover {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  text-decoration: none;
+}
+
+/** --------------------------------------------------------------
+ * Navbar: Styled for me-site in oophp
+ *
+ */
+ ul.nb-mestyle {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color : #EEE;
+  padding-top : 15px;
+  padding-bottom : 15px;
+}
+
+ul.nb-mestyle li {
+  padding: 0 0 0 1em;
+  margin: 0;
+  display: inline;
+  padding-left : 5px;
+  
+}
+
+ul.nb-mestyle li:first-child {
+  padding-left: 0;
+}
+
+ul.nb-mestyle li.selected a {
+  background-color : #FE7C12;
+  padding-top : 15px;
+  padding-bottom : 15px;
+  color : black;
+  
+}    
+
+ul.nb-mestyle a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}  
+
+ul.nb-mestyle a:hover {
+   text-decoration: none;
+   color : #FE7C12;
+}
+ 
+ 

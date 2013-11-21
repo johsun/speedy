@@ -1,0 +1,1 @@
+Speedy is a PHP boilerplate/framework for small to medium-size websites. It is designed by Johan Sundgren (sundgren@mensa.se). It started out as a part of a course in PHP programming at BTH and builds on Anax by Mikael Roos.
